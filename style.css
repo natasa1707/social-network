@@ -1,0 +1,67 @@
+.social-container {
+    display: flex;
+    width: 450px;
+    border: 1px solid #111;
+    border-radius: 4px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.social-button.twitter {
+    background-color: #1da1f2;
+    background-image: url(twitter.png);
+}
+
+.social-button.facebook {
+    background-color: #3b5998;
+    background-image: url(facebook.png);
+}
+
+.social-button.discord {
+    background-color: #7289da;
+    background-image: url(discord.png);
+}
+
+.social-button {
+    display: flex;
+    width: 150px;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: white;
+    transition: width 0.3s, background .1s;
+    }
+
+.social-call {
+    opacity: 0;
+    padding-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.one {
+    padding-right: 25%;
+    padding-left: 10%;
+    }
+
+.two {
+    padding-left: 25%;
+}
+
+.three {
+    padding-left: 30%;
+}
+
+.social-button:hover {
+    width: 300px;
+    background-position: left;
+}
+
+.social-button.twitter:hover {
+    background-position: right;
+}
+
+.social-call:hover {
+    opacity: 1;
+}
