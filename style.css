@@ -3,9 +3,6 @@
     width: 450px;
     border: 1px solid #111;
     border-radius: 4px;
-    overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .social-button.twitter {
@@ -24,7 +21,6 @@
 }
 
 .social-button {
-    display: flex;
     width: 150px;
     height: 80px;
     background-position: center;
@@ -32,7 +28,7 @@
     text-decoration: none;
     color: white;
     transition: width 0.3s, background .1s;
-    }
+}
 
 .social-call {
     opacity: 0;
@@ -43,7 +39,7 @@
 .one {
     padding-right: 25%;
     padding-left: 10%;
-    }
+}
 
 .two {
     padding-left: 25%;
